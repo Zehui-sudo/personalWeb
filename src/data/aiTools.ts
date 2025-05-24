@@ -5,80 +5,80 @@ export const aiTools: AITool[] = [
   {
     id: 'kb-1',
     name: 'NotebookLM',
-    logo: 'placeholder-logo.png', // 请替换为真实 logo 链接
+    logo: 'https://lh3.googleusercontent.com/drive-storage/AJQWtUOv_NB_1lY1Hh2QAmHh6yO5f1jWkG2t_hWYtGf_7a6lF3H_0cZ0tqX-2Qn0L3-_5z976Kx_u6KWDnAX6Nn44xTudn3z=s1600-rw-e365',
     category: '知识库笔记',
-    link: 'placeholder-link' // 请替换为真实链接
+    link: 'https://notebooklm.google.com/'
   },
   {
     id: 'kb-2',
-    name: 'ima', // 您提供的 "ima" 可能是 "Ima" 或其他，请确认
-    logo: 'placeholder-logo.png',
+    name: 'ima',
+    logo: 'https://im.qq.com/pcqq/images/qqlogo.svg', // 使用 QQ 官方 Logo
     category: '知识库笔记',
-    link: 'placeholder-link'
+    link: 'https://ima.qq.com/'
   },
   {
     id: 'kb-3',
     name: 'Notion',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png', // 示例logo，请确认或替换
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png',
     category: '知识库笔记',
-    link: 'https://www.notion.so' // 示例链接，请确认或替换
+    link: 'https://www.notion.so'
   },
   {
     id: 'kb-4',
     name: 'Remio',
-    logo: 'placeholder-logo.png',
+    logo: 'https://assets-global.website-files.com/660c7ac1a7e7aa888ed6ea22/66163f682254e0165168282c_Dark%20Mode%3DFavicon%2C%20Light%20Mode%3DFavicon.png', // 从 remio.ai 获取的 logo
     category: '知识库笔记',
-    link: 'placeholder-link'
+    link: 'https://www.remio.ai/'
   },
   {
     id: 'kb-5',
     name: 'Granola',
-    logo: 'placeholder-logo.png',
+    logo: 'https://uploads-ssl.webflow.com/64da152921e2cf783e91d63a/64da17a0c0cbfd7bc8f81b44_favicon-256.png', // 从 granola.ai 获取的 logo
     category: '知识库笔记',
-    link: 'placeholder-link'
+    link: 'https://www.granola.ai/'
   },
   {
     id: 'kb-6',
     name: 'YouMind',
-    logo: 'placeholder-logo.png',
+    logo: 'https://youmind.ai/images/header/logo-dark.svg', // 从 youmind.ai 获取的 logo
     category: '知识库笔记',
-    link: 'placeholder-link'
+    link: 'https://youmind.ai/'
   },
 
   // AI 编程类产品
   {
     id: 'dev-1',
     name: 'Cursor',
-    logo: 'placeholder-logo.png',
+    logo: 'https://cursor.com/images/logo.png', // 从 cursor.com 获取的 logo
     category: 'AI编程',
-    link: 'placeholder-link'
+    link: 'https://www.cursor.com/'
   },
   {
     id: 'dev-2',
     name: 'Windsurf',
-    logo: 'placeholder-logo.png',
+    logo: 'https://windsurf.com/_next/static/media/logo-dark-theme.349f7384.svg', // 从 windsurf.com 获取的 logo
     category: 'AI编程',
-    link: 'placeholder-link'
+    link: 'https://windsurf.com/'
   },
   {
     id: 'dev-3',
     name: 'Bolt',
-    logo: 'placeholder-logo.png',
+    logo: 'https://bolt.new/bolt-logo.svg', // 从 bolt.new 获取的 logo
     category: 'AI编程',
-    link: 'placeholder-link'
+    link: 'https://bolt.new/'
   },
   {
     id: 'dev-4',
     name: 'Loveable',
-    logo: 'placeholder-logo.png',
+    logo: 'https://lovable.dev/icon.png', // 从 lovable.dev 获取的 logo
     category: 'AI编程',
-    link: 'placeholder-link'
+    link: 'https://lovable.dev/'
   },
   {
     id: 'ai-5', // 保留原有 GitHub Copilot
     name: 'GitHub Copilot',
     logo: 'https://avatars.githubusercontent.com/u/96936610',
-    category: 'AI编程', // 更新分类
+    category: 'AI编程',
     link: 'https://github.com/features/copilot'
   },
 
@@ -86,16 +86,16 @@ export const aiTools: AITool[] = [
   {
     id: 'browser-1',
     name: 'Dia',
-    logo: 'placeholder-logo.png',
+    logo: 'https://www.diabrowser.com/images/logo-text.svg', // 从 diabrowser.com 获取的 logo
     category: 'AI浏览器',
-    link: 'placeholder-link'
+    link: 'https://www.diabrowser.com/'
   },
   {
     id: 'browser-2',
-    name: 'Fellou', // 您提供的 "Fellou" 可能是 "Fellow" 或其他，请确认
-    logo: 'placeholder-logo.png',
+    name: 'Fellou',
+    logo: 'https://fellou.ai/images/logo.svg', // 从 fellou.ai 获取的 logo
     category: 'AI浏览器',
-    link: 'placeholder-link'
+    link: 'https://fellou.ai/'
   },
   
   // 其他 AI 产品 (保留原有未明确分类的)

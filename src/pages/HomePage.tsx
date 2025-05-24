@@ -4,9 +4,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { projects } from '../data/projects';
 import { aiTools } from '../data/aiTools';
-import { blogPosts } from '../data/blogPosts';
 import ProjectCard from '../components/shared/ProjectCard';
-import BlogPostCard from '../components/shared/BlogPostCard';
+// BlogPostCard import removed as per request
 import AIToolCard from '../components/shared/AIToolCard';
 import SectionHeading from '../components/shared/SectionHeading';
 
@@ -128,8 +127,12 @@ const HomePage = () => {
               </SectionHeading>
             </div>
             
-            <div>
-              <BlogPostCard post={blogPosts[0]} index={0} />
+            <div className="flex justify-center">
+              <img 
+                src="/how to learn.svg" 
+                alt="Learning Process" 
+                className="max-w-full h-auto rounded-lg dark:invert"
+              />
             </div>
           </div>
         </div>
