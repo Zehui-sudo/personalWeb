@@ -129,7 +129,7 @@ const HomePage = () => {
             
             <div className="flex justify-center">
               <img 
-                src="/how to learn.svg" 
+                src="/public/how-to-learn.svg" 
                 alt="Learning Process" 
                 className="max-w-full h-auto rounded-lg dark:invert"
               />
