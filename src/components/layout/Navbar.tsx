@@ -46,11 +46,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Hobbies', path: '/hobbies' },
-    { name: 'About', path: '/about' }
+    { name: '主页', path: '/' },
+    { name: '项目', path: '/projects' },
+    { name: '笔记', path: '/blog' },
+    { name: '爱好', path: '/hobbies' },
+    { name: '关于我', path: '/about' }
   ];
 
   return (

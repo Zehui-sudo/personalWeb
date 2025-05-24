@@ -10,11 +10,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-xl font-bold text-primary-600 dark:text-primary-400">
-              <span className="font-heading">Portfolio</span>
+              <span className="font-heading">联系我</span>
             </Link>
             <p className="mt-4 text-gray-600 dark:text-gray-400 max-w-md">
-              Showcasing my projects, learning journey, and personal interests. 
-              Feel free to reach out if you'd like to collaborate or chat.
+              如果有任何 AI 或产品相关的想法，欢迎联系我！
             </p>
             <div className="mt-6 flex space-x-4">
               <a 
@@ -56,47 +55,14 @@ const Footer = () => {
           
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">
-              Navigation
-            </h3>
-            <ul className="mt-4 space-y-2">
-              <li>
-                <Link to="/" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/projects" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link to="/hobbies" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Hobbies
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  About
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">
               Contact
             </h3>
             <ul className="mt-4 space-y-2">
               <li className="text-gray-600 dark:text-gray-400">
-                contact@example.com
+                zackpu23@163.com
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                San Francisco, CA
+                北京市朝阳区
               </li>
             </ul>
           </div>

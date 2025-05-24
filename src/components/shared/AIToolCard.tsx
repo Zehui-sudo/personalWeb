@@ -27,9 +27,9 @@ const AIToolCard = ({ tool, index }: AIToolCardProps) => {
         {tool.name}
       </h3>
       
-      <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">
+      {/* <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">
         {tool.category}
-      </p>
+      </p> */}
       
       <a 
         href={tool.link} 
